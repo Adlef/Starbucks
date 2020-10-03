@@ -6,9 +6,11 @@ A randomized experiment was conducted by Starbucks. An advertising promotion was
 The goal of this exercise is to build a model to select the best customers to target, maximizing the two following metrics:
 
 1. Incremental Response Rate (IRR)
+
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
 2. Net Incremental Revenue (NIR)
+
 NIR depicts how much is made (or lost) by sending out the promotion.
 
 Different approaches are described in Jupyter Notebook to solve this problem.
