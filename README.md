@@ -22,4 +22,6 @@ Different approaches are described in Jupyter Notebook to solve this problem.
 3. Starbucks.ipynb: contains the Starbucks Promotion Strategies.
 4. test_results.py: contains functions to evaluate the IRR and NIR values. File is provided by Starbucks.
 
+## Requirements
 
+Anaconda, Imblearn, Statsmodels, Seaborn
