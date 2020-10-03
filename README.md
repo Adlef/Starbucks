@@ -3,15 +3,12 @@
 ## Project Description
 
 A randomized experiment was conducted by Starbucks. An advertising promotion was tested to see if it would bring more customers to purchase a specific product priced at $10. Since it costs the company $0.15 to send out each promotion, it would be best to limit that promotion only to those that are most receptive to it. 
+
 The goal of this exercise is to build a model to select the best customers to target, maximizing the two following metrics:
 
-1. Incremental Response Rate (IRR)
+1. Incremental Response Rate (IRR) - depicting how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
-
-2. Net Incremental Revenue (NIR)
-
-NIR depicts how much is made (or lost) by sending out the promotion.
+2. Net Incremental Revenue (NIR) - depicting how much is made (or lost) by sending out the promotion.
 
 Different approaches are described in Jupyter Notebook to solve this problem.
 1. Two Models Approach
