@@ -26,6 +26,13 @@ An article has been written on this project [here](https://medium.com/@adlef01/s
 3. Starbucks.ipynb: contains the Starbucks Promotion Strategies.
 4. test_results.py: contains functions to evaluate the IRR and NIR values. File is provided by Starbucks.
 
+## Results
+
+The simplest approach showed optimistic results, and even did better than the Starbuck’s model. 
+On the other hand, the complexity of the Two Model Approach, combined with its sensitiveness regarding the cut-off, did not work.
+The biggest challenge was to handle the imbalanced data. It is true that SMOTE helped us to overcome this issue but it has also disadvantages; while generating synthetic examples, SMOTE does not take into consideration neighboring examples can be from other classes. This can increase the overlapping of classes and can introduce additional noise. And as found before, the decision limit between our two classes is not so clearly defined, therefore it might have biased our results.
+More hyperparameters from the GradientBoostingClassifier algorithm could have been trained thanks to GridSearchCV, or simply comparing these results to other classifier algorithms.
+
 ## Requirements
 
 Anaconda, Imblearn, Statsmodels, Seaborn
